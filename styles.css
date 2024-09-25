@@ -1,0 +1,48 @@
+body{
+
+background-color: black;
+
+color: whitesmoke;
+
+font-family:"Sofadi One", system-ui;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+font-size: 22px;
+
+
+background-image: url(./Img/medieval.avif);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center center;
+
+}
+
+
+button{
+   
+    background-color: rgb(148, 148, 147);
+    font-family:"Sofadi One", system-ui;
+color: aqua;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+padding: 2%;
+size-adjust: 70%;
+    max-width: 70%;
+}
